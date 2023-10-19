@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+/* variables */
+:root {
+  --font: "Montserrat", sans-serif;
+  --font-size-title: 13rem;
+  --font-size-h3: 2.4rem;
+  --font-size-body: 1.6rem;
+  --font-size-h2: 4rem;
+}
+
+/* type styles */
+
+body {
+  font-family: var(--font);
+  font-weight: 500;
+}
+
+.home-hero__title {
+  font-size: var(--font-size-title);
+  color: var(--color-type);
+}
