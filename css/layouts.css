@@ -1,0 +1,25 @@
+nav ul {
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.home-hero {
+    height: 30rem;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.home-hero__image {
+    width: 80%;
+}
+
+.social-proof {
+    width: 100%;
+    overflow-x: auto;
+}

@@ -3,7 +3,7 @@
 /* variables */
 :root {
   --font: "Montserrat", sans-serif;
-  --font-size-title: 13rem;
+  --font-size-title: 5rem;
   --font-size-h3: 2.4rem;
   --font-size-body: 1.6rem;
   --font-size-h2: 4rem;
@@ -18,5 +18,8 @@ body {
 
 .home-hero__title {
   font-size: var(--font-size-title);
-  color: var(--color-type);
+}
+
+nav a {
+  text-decoration: none;
 }

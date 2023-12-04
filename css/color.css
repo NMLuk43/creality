@@ -4,3 +4,27 @@
   --color-card: #22363a;
   --color-type: #eefafd;
 }
+
+body p {
+  color: var(--color-type);
+}
+
+h1, h2, h3 {
+  color: var(--color-type);
+}
+
+.k1-features__feature {
+  background: transparent;
+}
+
+main, header, footer {
+  background-color: var(--color-background);
+}
+
+nav a {
+  color: var(--color-type);
+}
+
+.social-proof__card.card {
+  background-color: var(--color-card);
+}
