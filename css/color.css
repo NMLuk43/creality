@@ -9,6 +9,29 @@ body p {
   color: var(--color-type);
 }
 
+.btn-primary {
+  background-color: #54C8E8;
+  color: var(--color-background);
+}
+
+.btn-secondary {
+  background-color: var(--color-type);
+  color: var(--color-background);
+}
+
+.cta-callout {
+  background-color: var(--color-highlight-blue);
+  color: var(--color-background);
+}
+
+.cta-callout h2 {
+  color: var(--color-background);
+}
+
+.cta-callout .btn-primary {
+  background-color: var(--color-type);
+}
+
 h1, h2, h3 {
   color: var(--color-type);
 }
@@ -17,7 +40,7 @@ h1, h2, h3 {
   background: transparent;
 }
 
-main, header, footer {
+body {
   background-color: var(--color-background);
 }
 

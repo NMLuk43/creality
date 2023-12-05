@@ -1,25 +1,79 @@
-nav ul {
-    list-style: none;
-    justify-content: space-between;
-    width: 40%;
+.btn-primary {
+  border: none;
+}
+
+.btn-secondary {
+  border: none;
+}
+
+.cta-callout {
+    height: 10rem;
     align-items: center;
+}
+
+.final-cta {
+    text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  justify-content: space-between;
+  width: 40%;
+  max-width: 25rem;
+  align-items: center;
 }
 
 nav {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .home-hero {
-    height: 30rem;
-    align-items: center;
-    padding-bottom: 2rem;
+  height: 30rem;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .home-hero__image {
-    width: 80%;
+  width: 80%;
 }
 
-.social-proof {
-    width: 100%;
-    overflow-x: auto;
+.k1-features__image {
+  border-radius: 0.7rem;
+  box-shadow: 0px 0px 30px 0px rgba(84, 200, 232, 0.23);
+}
+
+main section {
+    margin: 6.25rem auto;
+}
+
+.social-proof__cards {
+  overflow-x: scroll;
+  align-self: center;
+  width: 100%;
+}
+
+.social-proof__card {
+  flex: 0 0 auto;
+  padding: 2rem;
+  margin-right: 3rem;
+  width: 40rem;
+}
+
+.social-proof__card.card-body {
+  display: flex;
+}
+
+header {
+  background-image: url("../images/Group\ 27.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% -24rem;
+}
+
+main {
+  background-image: url("../images/Group\ 27.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0rem -40rem;
 }

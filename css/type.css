@@ -16,6 +16,10 @@ body {
   font-weight: 500;
 }
 
+.cta-callout h2 {
+  font-weight: 700;
+}
+
 .home-hero__title {
   font-size: var(--font-size-title);
 }

@@ -2,17 +2,19 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script defer src="bootstrap.js"></script>
+    <title>Creality K1 Max</title>
   </head>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
   <body>
     <header>
-      <nav class="nav p-4 d-flex">
+      <nav class="p-4 d-flex">
         <a class="logo" href="index.html">
           <img class="logo__img" src="images/logo.svg"/>
         </a>
-        <ul class="nav__list d-flex">
-          <li><a class="nav__item" href="#">Shop All Printers</a></li>
-          <li><button type="button" class="nav__item btn btn-secondary" href="#">Shop K1 Max</button></li>
+        <ul class="nav__list d-flex justify-content-end">
+          <li><a class="nav__item me-4" href="#">Shop All Printers</a></li>
+          <li><button type="button" class="nav__item btn btn-secondary me-2" href="#">Shop K1 Max</button></li>
         </ul>
       </nav>
 
@@ -20,10 +22,20 @@
         <div class="home-hero__inner">
           <h1 class="home-hero__title">K1 Max</h1>
           <p class="home-hero__subtitle">Industry leading 3D printer technology and performance in our most adavanced printer to date.</p>
-          <button type="button"  class="btn btn-primary">Shop K1 Max</button>
+          <button type="button"  class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart">Add K1 Max to Cart</button>
         </div>
         <div>
           <img class="home-hero__image" src="images/k1-max.png" />
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end d-flex" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasCartLabel">Added "K1 Max" To Your Cart!</h4>
+            <button type="button" class="btn-close me-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <img src="images/k1-max.png" class="w-50" />
+          <p>$5</p>
         </div>
       </div>
       </section>
@@ -34,7 +46,7 @@
         <div class="row">
           <div class="k1-features__content col">
               <div class="k1-features__feature card" >
-                <img class="card-img-top" src="#" />
+                <img class="card-img-top k1-features__image" src="images/default 2.jpg" />
                 <div class="card-body">
                   <h3>12x Faster</h3>
                   <p>Our advanced, high-speed, motors are factory tuned to allow you to get your ideas printed faster than ever before.</p>
@@ -43,7 +55,7 @@
           </div>
           <div class="k1-features__feature col" >
             <div class="k1-features__feature card">
-              <img class="card-img-top" src="#" />
+              <img class="card-img-top k1-features__image" src="images/Mask group.jpg" />
               <div class="card-body">
                 <h3>Top Notch Print Quality</h3> 
                 <p>With dual Cold-Fusion cooling fans, print warping and layer separation are a thing of the past. </p>
@@ -52,7 +64,7 @@
           </div>
           <div class="k1-features__feature col" >
               <div class="k1-features__feature card">
-                <img class="card-img-top" src="#" />
+                <img class="card-img-top k1-features__image" src="images/Mask group-1.jpg" />
                 <div class="card-body">
                   <h3>AI Assistance</h3>
                   <p>K1 Max has AI built in to monitor print progress and alert you if things aren’t going to plan.  K1 with AI built in will make printing easier than ever before.</p>
@@ -62,9 +74,9 @@
         </div>
       </section>
 
-      <section class="social-proof container">
+      <section class="social-proof containe-fluid">
         <h2>Utilized by Professionals, Loved by Creators</h2>
-        <div class="social-proof__cards">
+        <div class="social-proof__cards d-flex">
             <div class="social-proof__card card">
               <div class="card-body">
                 <p>"This is the most advanced 3D printer I have ever used. The combination of speed and accuracy is unmatched."</p>
@@ -80,12 +92,12 @@
             <div class="social-proof__card card">
               <div class="card-body">
                 <p>“I love this printer, it is perfect for my home projects!”</p>
-                <p><strong>Stevie Smiths</strong><br>Etsy Sellers</p>
+                <p><strong>Stevie Smiths</strong><br>Etsy Seller</p>
               </div>
             </div>
         </div> 
       </section>
-      <section class="cta-callout container">
+      <section class="cta-callout container-fluid d-flex">
         <h2 class="cta-callout__title">Start Creating with the Most Advanced 3D Printer on the Market</h2>
         <button type="button"  class="btn btn-primary">Shop K1 Max</button>
       </section>
@@ -114,7 +126,7 @@
         <button type="button"  class="btn btn-primary">Shop K1 Max</button>
       </section>
     </main>
-    <footer class="footer container">
+    <footer class="footer d-flex">
       <p>Copyright © 2023 Shenzhen Creality 3D Technology Co., Ltd.粤ICP备16041697号</p>
       <p>This site is a demonstration site created by Noah Lukinovich for
           coursework completed at Cedarville Univeristy. This website was based on content from Creality, a consumer 3D printer design and manufacturing company. Some information here is fictional and not accurate to Creality or their brand. 
