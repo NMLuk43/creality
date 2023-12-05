@@ -28,13 +28,13 @@ nav {
 }
 
 .home-hero {
-  height: 30rem;
+  height: 50vh;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .home-hero__image {
-  width: 80%;
+  width: 100%;
 }
 
 .k1-features__image {
@@ -63,17 +63,17 @@ main section {
   display: flex;
 }
 
-header {
+/* header {
   background-image: url("../images/Group\ 27.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 70% -24rem;
-}
+} */
 
-main {
+.background-graphics {
   background-image: url("../images/Group\ 27.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: repeat-y;
   background-attachment: scroll;
-  background-position: 0rem -40rem;
+  background-position: -10rem -40rem;
 }

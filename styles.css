@@ -1,5 +1,6 @@
 @import url("css/bootstrap.css");
 @import url("css/type.css");
-@import url("css/color.css ");
-@import url("css/global.css");
+
 @import url("css/layouts.css");
+
+@import url("css/color.css ");

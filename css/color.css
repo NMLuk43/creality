@@ -51,3 +51,7 @@ nav a {
 .social-proof__card.card {
   background-color: var(--color-card);
 }
+
+.social-proof__card.active {
+  background-color: red;
+}
