@@ -1,9 +1,23 @@
-.btn-primary {
+body {
+  height: 200vh;
+}
+
+.btn-nav {
   border: none;
+  padding: .5rem;
+  border-radius: .4rem;
+}
+
+.btn-main {
+  border: none;
+  padding: .5rem;
+  border-radius: .4rem;
 }
 
 .btn-secondary {
   border: none;
+  padding: .5rem;
+  border-radius: .4rem;
 }
 
 .cta-callout {
@@ -13,6 +27,10 @@
 
 .final-cta {
     text-align: center;
+}
+
+.logo, .logo__img {
+  vertical-align: center;
 }
 
 nav ul {
@@ -46,6 +64,10 @@ main section {
     margin: 6.25rem auto;
 }
 
+.offcanvas-body, .offcanvas-title {
+  text-align: center;
+}
+
 .social-proof__cards {
   overflow-x: scroll;
   align-self: center;
@@ -71,9 +93,10 @@ main section {
 } */
 
 .background-graphics {
-  background-image: url("../images/Group\ 27.svg");
-  background-size: auto;
-  background-repeat: repeat-y;
-  background-attachment: scroll;
-  background-position: -10rem -40rem;
+  background-image: url("../images/background-graphics.svg");
+  background-size: 115%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 200vh;
 }

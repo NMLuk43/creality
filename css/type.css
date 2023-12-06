@@ -27,3 +27,7 @@ body {
 nav a {
   text-decoration: none;
 }
+
+.price {
+  font-size: 3rem;
+}

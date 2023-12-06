@@ -9,14 +9,31 @@ body p {
   color: var(--color-type);
 }
 
-.btn-primary {
+.btn-main {
   background-color: #54C8E8;
   color: var(--color-background);
 }
 
-.btn-secondary {
+.btn-nav {
   background-color: var(--color-type);
   color: var(--color-background);
+}
+
+.btn-secondary {
+  background-color: #386a80;
+  color: var(--color-type);
+}
+
+.btn-main:hover {
+  background-color: #1caad1;
+}
+
+.btn-nav:hover {
+  background-color: #b7eaf7;
+}
+
+.btn-secondary:hover {
+  opacity: .7;
 }
 
 .cta-callout {
@@ -46,6 +63,15 @@ body {
 
 nav a {
   color: var(--color-type);
+}
+
+.offcanvas {
+  background-color: var(--color-type);
+}
+
+
+.price {
+  color: var(--color-card);
 }
 
 .social-proof__card.card {
