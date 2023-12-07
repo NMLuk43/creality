@@ -12,29 +12,34 @@ body p {
 .btn-main {
   background-color: #54c8e8;
   color: var(--color-background);
+  transition: transform 0.25s ease;
 }
 
 .btn-nav {
   background-color: var(--color-type);
   color: var(--color-background);
+  transition: transform 0.25s ease;
 }
 
 .btn-secondary-b {
   background-color: #386a80;
   color: var(--color-type);
+  transition: transform 0.25s ease;
 }
 
 .btn-main:hover {
   background-color: #1caad1;
   box-shadow: 0px 4px 30px 0px rgba(11, 122, 224, 0.37);
+  transform: scale(1.05);
 }
 
 .btn-nav:hover {
   background-color: #b7eaf7;
+  transform: scale(1.05);
 }
 
 .btn-secondary-b:hover {
-  opacity: 0.7;
+  transform: scale(1.05);
 }
 
 .btn-close {
@@ -76,6 +81,7 @@ nav a {
   background-color: rgba(19, 113, 139, .5);
   backdrop-filter: blur(1rem);
   color: var(--color-type);
+  box-shadow: 0px 4px 30px 0px rgba(11, 122, 224, 0.37);
 }
 
 .price {
