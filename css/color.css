@@ -28,7 +28,8 @@ body p {
 }
 
 .btn-main:hover {
-  background-color: #1caad1;
+  background-color: #178eae;
+  color: var(--color-type);
   box-shadow: 0px 4px 30px 0px rgba(11, 122, 224, 0.37);
   transform: scale(1.05);
 }
