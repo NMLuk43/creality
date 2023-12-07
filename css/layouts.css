@@ -20,6 +20,10 @@ body {
   border-radius: 0.4rem;
 }
 
+.bs-button {
+  align-self: center ;
+}
+
 .cta-callout {
   height: 10rem;
   align-items: center;
