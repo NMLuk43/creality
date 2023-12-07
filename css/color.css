@@ -10,7 +10,7 @@ body p {
 }
 
 .btn-main {
-  background-color: #54C8E8;
+  background-color: #54c8e8;
   color: var(--color-background);
 }
 
@@ -19,7 +19,7 @@ body p {
   color: var(--color-background);
 }
 
-.btn-secondary {
+.btn-secondary-b {
   background-color: #386a80;
   color: var(--color-type);
 }
@@ -32,8 +32,12 @@ body p {
   background-color: #b7eaf7;
 }
 
-.btn-secondary:hover {
-  opacity: .7;
+.btn-secondary-b:hover {
+  opacity: 0.7;
+}
+
+.btn-close {
+  background-color: var(--color-highlight-blue);
 }
 
 .cta-callout {
@@ -49,7 +53,9 @@ body p {
   background-color: var(--color-type);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-type);
 }
 
@@ -66,12 +72,13 @@ nav a {
 }
 
 .offcanvas {
-  background-color: var(--color-type);
+  background-color: rgba(19, 113, 139, .5);
+  backdrop-filter: blur(1rem);
+  color: var(--color-type);
 }
 
-
 .price {
-  color: var(--color-card);
+  color: var(--color-type);
 }
 
 .social-proof__card.card {

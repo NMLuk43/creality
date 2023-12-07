@@ -4,32 +4,33 @@ body {
 
 .btn-nav {
   border: none;
-  padding: .5rem;
-  border-radius: .4rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
 }
 
 .btn-main {
   border: none;
-  padding: .5rem;
-  border-radius: .4rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
 }
 
-.btn-secondary {
+.btn-secondary-b {
   border: none;
-  padding: .5rem;
-  border-radius: .4rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
 }
 
 .cta-callout {
-    height: 10rem;
-    align-items: center;
+  height: 10rem;
+  align-items: center;
 }
 
 .final-cta {
-    text-align: center;
+  text-align: center;
 }
 
-.logo, .logo__img {
+.logo,
+.logo__img {
   vertical-align: center;
 }
 
@@ -61,10 +62,11 @@ nav {
 }
 
 main section {
-    margin: 6.25rem auto;
+  margin: 6.25rem auto;
 }
 
-.offcanvas-body, .offcanvas-title {
+.offcanvas-body,
+.offcanvas-title {
   text-align: center;
 }
 
